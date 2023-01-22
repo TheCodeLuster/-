@@ -80,12 +80,18 @@ h2 {
     background-color: #fcaa58;
   
 }
+.button{
+position: absolute;
+left: 80%;
+background: none;
+border: none;
+}
 .form-control
 {
     position: absolute;
     width: 220px;
-    top: 10%;
-    left: 50px;
+    top: 5%;
+    left: 80px;
     margin-left: 20px;
     background-color: #FCAA58; 
     border: none; 
@@ -212,6 +218,7 @@ border: none;
 .srch-btn{
     width: 146px;
     height: 37px;
+    display: block;
     background: rgba(252, 170, 88, 0.45);
     border: 1px solid #FCAA58;
     margin:0 auto;
@@ -246,6 +253,7 @@ border: none;
     height: 205px;
     display: flex;
     width: 100%;
+    margin: 0 auto;
 }
 
 .name-search-type-field{
