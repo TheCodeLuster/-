@@ -75,14 +75,14 @@ h2 {
 .info{
     font-family: FixelText-Regular;
     font-size: 8;
+    margin-left: 10px;
 }
 .fill-background{
     background-color: #fcaa58;
   
 }
 .button{
-position: absolute;
-left: 80%;
+margin-left: 10px;
 background: none;
 border: none;
 }
@@ -160,7 +160,7 @@ outline:0 !important;
     line-height: 14px;
     text-align: center;
     color: #F5F5F5;
-    margin-left: 20px;
+    margin: 0 auto;
     margin-top: 80px;
     background: rgba(59, 45, 70, 0.6);
     border: none;
