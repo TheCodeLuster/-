@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>FindMall</title>
+  </head>
+  <body>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-12 header fill-background">
+          
+          <button class="golovna-button btn-style">Головна</button>
+          <button class="trc-button btn-style">ТРЦ</button>
+          <button class="categories-button btn-style">Категорії</button>
+          <span class="main-name" style=" font-family: FixelText-Medium;">FindMall</span>
+          <img src="logo_transparent.png" alt="Logo" width="25" height="25" >
+          <button class="name-search-button btn-style" style=" line-height: 9px;">Пошук за назвою</button>
+          <button class="map-button btn-style">Мапа</button>
+        </div>
+      </div>
+      <div class="row background">
+        
+          <div class="col-12 entry-page" style="display: flex;">
+            <div class="col guide-text">
+              твій гід <br />
+              у трц <br />м. львів
+            </div>
+            <div class="col">
+              <button class="start-search-button"> Почати пошук</button>
+            </div>
+
+        </div>
+      </div>
+      <div class="row dostupni-trc" >
+        <div class="col-6 fill-background"style="  margin-top: 25px; width: 222px; height: 48px;">
+          <h2 class="trc-text">Доступні для пошуку ТРЦ</h2>
+          <p class="dostupni-trc-text">
+            Натисніть на фото ТРЦ, у якому бажаєте здійснити пошук <br />(так,
+            можна обрати декілька)
+          </p>
+        </div>
+      </div>
+      <div class="row trc-labels" style="margin-top: 40px;">
+        <div class="col-6">
+          <!-- image VICTORIA GARDENS -->
+            <div class="vg-div"style="background: linear-gradient(rgba(59, 45, 70, 0.55), rgba(59, 45, 70, 0.55)), url(images/2.jpg);background-size: cover;">
+              <button class="choose-trc">ОБРАТИ VICTORIA GARDENS</button>
+            </div>
+        </div>
+        <div class="col-6">
+          <!-- info VICTORIA GARDENS -->
+          <h3 style="margin-top: 27px;">VICTORIA GARDENS</h3>
+          <p class="info">
+            Час роботи: 10:00-21:00<br />
+            Розташування:<br />
+            м. Львів, вул. Кульпарківська, 226А
+          </p>
+        </div>
+      </div>
+      <div class="row trc-labels">
+        <div class="col-6">
+          <!-- info KING CROSS -->
+          <h3 style="margin-top: 27px;">KING CROSS LEOPOLIS</h3>
+          <p class="info">
+            Час роботи: 10:00-20:00<br />
+            Розташування:<br />
+            с. Сокільники, вул. Стрийська, 30
+          </p>
+        </div>
+        <div class="col-6">
+          <div class="vg-div" style="background: linear-gradient(rgba(59, 45, 70, 0.55), rgba(59, 45, 70, 0.55)), url(images/3.jpg);background-size: cover;">
+            <button class="choose-trc">ОБРАТИ KING CROSS LEOPOLIS</button>
+          </div>
+        </div>
+      </div>
+      <div class="row trc-labels">
+        <div class="col-6">
+          <div class="vg-div"style="background: linear-gradient(rgba(59, 45, 70, 0.55), rgba(59, 45, 70, 0.55)), url(images/4.jpg);background-size: cover;">
+            <button class="choose-trc">ОБРАТИ SPARTAK</button>
+          </div>
+        </div>
+        <div class="col-6">
+          <!--  info SPARTAK-->
+          <h3 style="margin-top: 27px;">СТРЦ SPARTAK</h3>
+          <p class="info">
+            Час роботи: 10:00-22:00<br />
+            Розташування:<br />
+            м. Львів, вул. Гетьмана Мазепи, 1Б
+          </p>
+        </div>
+      </div>
+      <div class="row trc-labels">
+        <div class="col-6">
+          <!-- info FORUM -->
+          <h3 style="margin-top: 27px;">FORUM LVIV</h3>
+          <p class="info">
+            Час роботи: 10:00-21:00<br />
+            Розташування:<br />
+            м. Львів, вул. Під Дубом, 7Б
+          </p>
+        </div>
+        <div class="col-6">
+          <!-- image FORUM -->
+          <div class="vg-div" style="background: linear-gradient(rgba(59, 45, 70, 0.55), rgba(59, 45, 70, 0.55)), url(images/5.jpg);background-size: cover;">
+            <button class="choose-trc">ОБРАТИ FORUM LVIV</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row outline-row">
+        <div class="col-12">
+            <h2>Оберіть категорії пошуку</h2>
+            <p>Натисніть на шукану категорію та оберіть підкатегорії зі списку 
+                (знову ж таки, можете обрати декілька, сміливіше)</p>
+        </div>
+      </div>
+
+      <div class="row categories-photo-block">
+        <!-- 3 photos -->
+        <div class="col-4"style="padding:0;" >
+          <div class="category-div" style="background: linear-gradient(rgba(59, 45, 70, 0.6), rgba(59, 45, 70, 0.068)), url(images/6.jpg);background-size:cover;background-position: center; background-repeat: no-repeat;">
+            <button class="choose-category">Магазини</button>
+          </div>
+          </div>
+        <div class="col-4"style="padding:0;">
+          <div class="category-div" style="background: linear-gradient(rgba(59, 45, 70, 0.6), rgba(59, 45, 70, 0.068)), url(images/7.jpg);background-size: cover;background-position: center; background-repeat: no-repeat;">
+            <button class="choose-category">Кафе та ресторани</button>
+          </div>
+          </div>
+        <div class="col-4"style="padding:0;">
+          <div class="category-div" style="background: linear-gradient(rgba(59, 45, 70, 0.6), rgba(59, 45, 70, 0.068)), url(images/8.jpg);background-size: cover; background-position: center; background-repeat: no-repeat;">
+            <button class="choose-category">Розваги та послуги</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12" style="margin-top:32px ;">
+          <button class="srch-btn">Почати пошук</button>
+          <h2 style="font-style: normal;font-weight: 500;font-size: 10px;line-height: 14px;color: #000000; font-family:FixelText-Medium; margin-top: 26px;">Або скористатися пошуком за назвою</h2>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+        </svg>
+      </div>
+
+      <div class="row name-search-type-field fill-background"style="align-items:center; position: relative;" >
+        <div class="col-12">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="12px" height="12px" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M23.707,22.293l-5.969-5.969a10.016,10.016,0,1,0-1.414,1.414l5.969,5.969a1,1,0,0,0,1.414-1.414ZM10,18a8,8,0,1,1,8-8A8.009,8.009,0,0,1,10,18Z" fill="#a1b1c2" data-original="#000000"/></g></svg>
+
+          <form class="searchbar" role="search" >
+            <input type="search" class="form-control" placeholder="Введіть назву магазину/кафе/послуги та натисніть на знак пошуку..." aria-label="Search">
+        </form>
+        </div>
+      </div>
+
+      <div class="row map-block">
+        <!-- tyt mapa -->
+        <button class="my-location"></button>
+      </div>
+
+      <div class="row fill-background">
+        <div class="col-12 footer fill-background">
+
+            <h2>Дякуємо, що користуєтеся нашим сервісом!</h2>
+            <div class="col-4">
+                <p>Більше інформації про ТРЦ можете знайти за посиланнями на офіційні веб-сайти</p>
+            </div>
+            <div class="col-8">
+                
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
